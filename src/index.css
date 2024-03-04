@@ -151,6 +151,7 @@ header form {
 
 .card-img:hover {
 	background-color: #A6ACAF;
+	transition: 0.5s;
 }
 
 .card-img img {
@@ -339,7 +340,7 @@ Styles of Pokemon Single Page
 	margin-top: -100px;
 	margin-bottom: 20px;
 	margin-right: 250px;
-	background-color: #D0D3D4;
+	background-color: #E5E7E9;
 	border-radius: 15px;
 	order: 2;
 	flex: 0.5;
@@ -349,7 +350,8 @@ Styles of Pokemon Single Page
 }
 
 .container-img-pokemon:hover {
-	background-color: #E5E7E9;
+	background-color: #D0D3D4;
+	transition: 0.24s;
 }
 
 .container-img-pokemon img {
