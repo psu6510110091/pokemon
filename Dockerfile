@@ -1,6 +1,11 @@
-FROM node
+FROM node:alpine3.11
+
 WORKDIR /app
+
 COPY . .
+
+ENV PATH /app/node_modules/.bin:$PATH
+
 RUN npm install
-EXPOSE 5172
-CMD ["npm", "run", "dev"]
+
+CMD ["npm","run","dev"]
